@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Career Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    
+  <header>
+    <h1>Career Dashboard</h1>
+    <p>Track your job hunt like a pro and excel in your career journey!</p>
+  </header>
+  
+
+  <!-- Stats Overview -->
+  <section class="stats">
+    <div class="stat-card">
+      <h3>Total Applications</h3>
+      <p id="totalApps">0</p>
+    </div>
+    <div class="stat-card">
+      <h3>Interviews</h3>
+      <p id="interviews">0</p>
+    </div>
+    <div class="stat-card">
+      <h3>Offers</h3>
+      <p id="offers">0</p>
+    </div>
+    <div class="stat-card">
+      <h3>Success Rate</h3>
+      <p id="successRate">0%</p>
+    </div>
+  </section>
+
+  <!-- Graphs -->
+  <section class="charts">
+    <div class="chart-container">
+      <canvas id="statusChart"></canvas>
+    </div>
+    <div class="chart-container">
+      <canvas id="timelineChart"></canvas>
+    </div>
+  </section>
+
+  <!-- Add New Application -->
+  <section class="form-section">
+    <h2>Add New Application</h2>
+    <form id="applicationForm">
+      <input type="text" id="company" placeholder="Company Name" required />
+      <input type="text" id="jobTitle" placeholder="Job Title" required />
+      <input type="date" id="date" required />
+      <select id="status">
+        <option value="Applied">Applied</option>
+        <option value="Interview">Interview</option>
+        <option value="Offer">Offer</option>
+        <option value="Rejected">Rejected</option>
+      </select>
+      <textarea id="notes" placeholder="Notes..."></textarea>
+      <button type="submit">Add Application</button>
+    </form>
+  </section>
+
+  <!-- Applications List -->
+  <section class="list-section">
+    <h2>Applications List</h2>
+    <div class="filter">
+      <label>Filter by Status:</label>
+      <select id="filterStatus">
+        <option value="All">All</option>
+        <option value="Applied">Applied</option>
+        <option value="Interview">Interview</option>
+        <option value="Offer">Offer</option>
+        <option value="Rejected">Rejected</option>
+      </select>
+    </div>
+    <ul id="applicationList"></ul>
+  </section>
+
+  <!-- Career Tips -->
+  <section class="tips">
+    <h2>💡 Career Tips</h2>
+    <ul>
+      <li>Tailor your resume for each job application.</li>
+      <li>Keep learning new tools, skills and make yourself updated according to the recent trends.</li>
+      <li>Follow up politely after interviews.</li>
+      <li>Network with professionals on professional platforms like LinkedIn.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Pursue your dreams with passion, but follow a clear plan to turn them into reality.</p>
+    <p>&copy; 2025 Career Dashboard. All rights reserved.</p>
+    <p>Designed and developed by AISHWARYA MOL S</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
