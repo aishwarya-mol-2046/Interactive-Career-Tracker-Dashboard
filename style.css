@@ -44,8 +44,8 @@ header {
 /* Amazing font with gradient text */
 h1 {
   font-family: 'Poppins', sans-serif;
-  font-size: 3rem; /* Bigger and bold for header */
-  font-weight: 700;
+  font-size: 3.2rem; /* Bigger and bold for header */
+  font-weight: 800;
   background: linear-gradient(90deg,
     #ff9a9e,   /* soft pink */
     #fad0c4,   /* peach glow */
