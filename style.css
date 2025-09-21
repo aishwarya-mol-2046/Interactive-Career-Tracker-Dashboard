@@ -24,14 +24,14 @@ body {
 
 
 
-/* Header and Footer (already styled as per previous instructions) */
-header {
+/* Header and Footer (already styled as per previous instructions) 
+/*header {
   background: linear-gradient(90deg, 
-    #0f2027 0%,    /* deep navy */
-    #203a43 30%,   /* dusk teal */
-    #2c5364 55%,   /* fading ocean */
-    #ff8c00 80%,   /* sunset orange */
-    #ffd700 100%   /* golden glow */
+    #0f2027 0%,    /* deep navy 
+    #203a43 30%,   /* dusk teal 
+    #2c5364 55%,   /* fading ocean 
+    #ff8c00 80%,   /* sunset orange 
+    #ffd700 100%   /* golden glow 
   );
   padding: 48px 0 36px 0;
   border-radius: 0 0 32px 32px;
@@ -39,7 +39,7 @@ header {
   margin-bottom: 36px;
   text-align: center;
   animation: headerFadeIn 1.2s cubic-bezier(.4,0,.2,1);
-}
+}*/
 
 h1 {
   font-family: 'Poppins', sans-serif;
@@ -77,6 +77,15 @@ header p {
   font-style: italic;
   letter-spacing: 0.6px;
   text-align: center;
+}
+.glass-box {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  backdrop-filter: blur(14px);
+  padding: 32px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+  margin: auto;
 }
 
 
