@@ -43,13 +43,12 @@ header {
 
 /* Amazing font with gradient text */
 header h1 {
-  font-family: 'Poppins', sans-serif;
-  font-size: 3rem;
+  font-family: 'Poppins', sans-serif; /* modern + clean */
+  font-size: 3rem; /* big and bold */
   font-weight: 700;
-  background: linear-gradient(90deg, #a5d8ff 0%, #fbcfe8 50%, #fef3c7 100%);
+  background: linear-gradient(90deg, #ffefba, #ffffff, #ffe259);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-clip: text;
   margin: 0;
   text-shadow: 0 4px 12px rgba(0,0,0,0.4);
 }
