@@ -41,38 +41,37 @@ header {
   animation: headerFadeIn 1.2s cubic-bezier(.4,0,.2,1);
 }
 
-/* Amazing font with gradient text */
+/* Harmonized H1 Gradient */
 h1 {
   font-family: 'Poppins', sans-serif;
   font-size: 3.2rem;
   font-weight: 800;
   background: linear-gradient(90deg,
-    #d0f4ff,   /* very pale sky blue */
-    #a0e7ff,   /* soft light blue */
-    #70cfff    /* gentle medium blue */
+    #a0e7ff,  /* light sky blue */
+    #4fc3f7,  /* medium cyan-blue */
+    #0277bd   /* deep but readable blue */
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-shadow: 0 3px 8px rgba(0,0,0,0.15); /* very soft shadow */
+  text-shadow: 0 4px 12px rgba(0,0,0,0.25); /* soft shadow for contrast */
   margin-bottom: 20px;
 }
 
-
+/* Harmonized Header P Gradient */
 header p {
   font-family: 'Poppins', sans-serif;
   font-size: 2rem;
   font-weight: 600;
-  background: linear-gradient(90deg, 
-    #ff9a9e,  /* soft pink */
-    #fad0c4,  /* peach glow */
-    #ffd700   /* golden highlight */
+  background: linear-gradient(90deg,
+    #4fc3f7,  /* medium cyan-blue */
+    #70b7ff,  /* soft sky blue */
+    #b39ddb   /* gentle lavender */
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-top: 12px;
-  text-shadow: 0 2px 8px rgba(0,0,0,0.25);
+  text-shadow: 0 2px 8px rgba(0,0,0,0.2); 
 }
-
 
 
 footer {
