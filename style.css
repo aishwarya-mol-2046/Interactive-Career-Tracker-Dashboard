@@ -43,7 +43,7 @@ header {
 
 /* Amazing font with gradient text */
 h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 3rem; /* Bigger and bold for header */
   font-weight: 700;
   background: linear-gradient(90deg,
