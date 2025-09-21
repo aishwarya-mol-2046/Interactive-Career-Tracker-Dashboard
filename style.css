@@ -47,15 +47,16 @@ h1 {
   font-size: 3.2rem; /* Bigger and bold for header */
   font-weight: 800;
   background: linear-gradient(90deg,
-    #ff9a9e,   /* soft pink */
-    #fad0c4,   /* peach glow */
-    #ffd700    /* golden highlight */
+    #a8dadc,   /* light aqua blue (left) */
+    #457b9d,   /* medium teal blue (center) */
+    #1d3557    /* deep ocean blue (right) */
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-shadow: 0 3px 10px rgba(0,0,0,0.3);
   margin-bottom: 20px;
 }
+
 
 
 header p {
