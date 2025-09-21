@@ -47,20 +47,21 @@ h1 {
   font-size: 3.2rem; /* Bigger and bold for header */
   font-weight: 800;
   background: linear-gradient(90deg,
-    #a8dadc,   /* light aqua blue (left) */
-    #457b9d,   /* medium teal blue (center) */
-    #1d3557    /* deep ocean blue (right) */
+    #4fc3f7,   /* light sky blue (left) */
+    #0288d1,   /* medium ocean blue (center) */
+    #01579b    /* deep but visible blue (right) */
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-shadow: 0 3px 10px rgba(0,0,0,0.3);
+  text-shadow: 0 4px 12px rgba(0,0,0,0.35); /* stronger shadow for contrast */
   margin-bottom: 20px;
 }
 
 
 
+
 header p {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 1.25rem;
   font-weight: 400;
   background: linear-gradient(90deg, 
