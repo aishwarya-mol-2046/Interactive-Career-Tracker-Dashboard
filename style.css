@@ -43,19 +43,21 @@ body {
 
 h1 {
   font-family: 'Poppins', sans-serif;
-  font-size: 3.6rem;
+  font-size: 3.4rem;
   font-weight: 900;
   background: linear-gradient(90deg,
-    #aed581,  /* soft lime green */
-    #81c784,  /* leafy green */
-    #4db6ac   /* teal harmony */
+    #a5f3fc 0%,   /* Soft Cyan */
+    #93c5fd 30%,  /* Light Blue */
+    #86efac 60%,  /* Pastel Green */
+    #fef08a 100%  /* Pale Yellow */
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 1px #ffffff; /* crisp white outline */
-  text-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+  background-clip: text;
+  -webkit-text-stroke: 1px #ffffff;
+  text-shadow: 0 6px 14px rgba(0,0,0,0.3);
   margin-bottom: 24px;
-  letter-spacing: 1.2px;
+  letter-spacing: 1px;
   text-align: center;
 }
 
@@ -63,27 +65,30 @@ h1 {
 /* Refined Tagline Style */
 header p {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 500;
   background: linear-gradient(90deg,
-    #fff9c4,  /* soft sunlight yellow */
-    #ffcc80,  /* peachy glow */
-    #ffab91   /* warm blush */
+    #fde68a 0%,   /* Soft Gold */
+    #f9a8d4 50%,  /* Light Pink */
+    #c084fc 100%  /* Soft Purple */
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 0.5px #5d4037; /* earthy brown outline */
-  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  background-clip: text;
+  text-shadow: 0 0 6px rgba(255, 255, 255, 0.3);
   font-style: italic;
   letter-spacing: 0.6px;
   text-align: center;
 }
+
+
 .glass-box {
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.06);
   border-radius: 20px;
   backdrop-filter: blur(14px);
   padding: 32px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 24px rgba(0, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   max-width: 800px;
   margin: auto;
 }
