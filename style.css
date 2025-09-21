@@ -26,8 +26,13 @@ body {
 
 /* Header and Footer (already styled as per previous instructions) */
 header {
-  background: linear-gradient(90deg, #0f2027 0%, #2c5364 50%, #00c6ff 100%);
-  color: #e0f7fa; /* soft aqua text */
+  background: linear-gradient(90deg, 
+    #0f2027 0%,   /* deep night teal */
+    #2c5364 30%,  /* ocean depth */
+    #00c6ff 65%,  /* bright aqua */
+    #ffd700 100%  /* sunlight gold */
+  );
+  color: #fff8dc; /* warm ivory text for harmony */
   padding: 48px 0 36px 0;
   border-radius: 0 0 32px 32px;
   box-shadow: 0 8px 32px rgba(0,0,0,0.3);
@@ -35,7 +40,6 @@ header {
   text-align: center;
   animation: headerFadeIn 1.2s cubic-bezier(.4,0,.2,1);
 }
-
 
 
 
