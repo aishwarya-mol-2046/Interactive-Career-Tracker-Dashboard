@@ -42,6 +42,7 @@ header {
 }
 
 /* Harmonized H1 Gradient */
+/* Harmonized H1 Gradient with White Outline */
 h1 {
   font-family: 'Poppins', sans-serif;
   font-size: 3.2rem;
@@ -49,19 +50,20 @@ h1 {
   background: linear-gradient(90deg,
     #a0e7ff,  /* light sky blue */
     #4fc3f7,  /* medium cyan-blue */
-    #0277bd   /* deep but readable blue */
+    #0277bd   /* deep blue */
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-shadow: 0 4px 12px rgba(0,0,0,0.25); /* soft shadow for contrast */
+  -webkit-text-stroke: 1px white; /* white outline */
+  text-shadow: 0 4px 12px rgba(0,0,0,0.25);
   margin-bottom: 20px;
 }
 
-/* Harmonized Header P Gradient */
+/* Harmonized Header P Gradient with White Outline */
 header p {
   font-family: 'Poppins', sans-serif;
-  font-size: 2rem;
-  font-weight: 600;
+  font-size: 1.5rem;
+  font-weight: 450;
   background: linear-gradient(90deg,
     #4fc3f7,  /* medium cyan-blue */
     #70b7ff,  /* soft sky blue */
@@ -69,10 +71,10 @@ header p {
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0.8px white; /* white outline */
   margin-top: 12px;
-  text-shadow: 0 2px 8px rgba(0,0,0,0.2); 
+  text-shadow: 0 2px 8px rgba(0,0,0,0.2);
 }
-
 
 footer {
   background: linear-gradient(90deg, #232526 0%, #414345 100%);
