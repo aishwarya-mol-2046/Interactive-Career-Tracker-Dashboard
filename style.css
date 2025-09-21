@@ -42,39 +42,42 @@ header {
 }
 
 /* Harmonized H1 Gradient */
-/* Harmonized H1 Gradient with White Outline */
 h1 {
   font-family: 'Poppins', sans-serif;
-  font-size: 3.2rem;
-  font-weight: 800;
+  font-size: 3.4rem;
+  font-weight: 900;
   background: linear-gradient(90deg,
-    #a0e7ff,  /* light sky blue */
-    #4fc3f7,  /* medium cyan-blue */
-    #0277bd   /* deep blue */
+    #ffcc80,  /* warm peach */
+    #ff8a65,  /* soft orange */
+    #f4511e   /* bold sunset orange */
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 1px white; /* white outline */
-  text-shadow: 0 4px 12px rgba(0,0,0,0.25);
-  margin-bottom: 20px;
+  -webkit-text-stroke: 1px #0d47a1; /* deep blue outline */
+  text-shadow: 0 6px 14px rgba(0,0,0,0.3);
+  margin-bottom: 24px;
+  letter-spacing: 1px;
 }
 
-/* Harmonized Header P Gradient with White Outline */
+/* Refined Tagline Style */
 header p {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.5rem;
-  font-weight: 450;
+  font-size: 1.6rem;
+  font-weight: 500;
   background: linear-gradient(90deg,
-    #4fc3f7,  /* medium cyan-blue */
-    #70b7ff,  /* soft sky blue */
-    #b39ddb   /* gentle lavender */
+    #fbc02d,  /* golden yellow */
+    #ff7043,  /* coral orange */
+    #e57373   /* soft red */
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 0.6px black; /* outline */
-  margin-top: 12px;
-  text-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  -webkit-text-stroke: 0.5px #263238; /* charcoal outline */
+  margin-top: 16px;
+  text-shadow: 0 3px 10px rgba(0,0,0,0.25);
+  font-style: italic;
+  letter-spacing: 0.5px;
 }
+
 
 footer {
   background: linear-gradient(90deg, #232526 0%, #414345 100%);
