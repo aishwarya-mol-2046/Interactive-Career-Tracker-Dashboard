@@ -71,7 +71,7 @@ header p {
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 0.8px white; /* white outline */
+  -webkit-text-stroke: 0.6px black; /* outline */
   margin-top: 12px;
   text-shadow: 0 2px 8px rgba(0,0,0,0.2);
 }
